@@ -1,4 +1,4 @@
-PlopRotTemp_S_2017
+PlopRotTemp
 #######################
 
 Get started:
@@ -10,7 +10,9 @@ To run PlopRotTemp you must use the next command on linux shell:
 
 2. $ /path/to/academic/schrodinger -m PlopRotTemp.main /path/to/mae/ligand
 
-Example
+Test
 -------------
-- e.g /opt/schrodinger2017-4/utilities/python -m PlopRotTemp.main ../2.mae
+
+- cd Examples
+- e.g /opt/schrodinger2017-4/utilities/python /path/to/PlopRotTemp/main.py AS4_INIT.mae
 

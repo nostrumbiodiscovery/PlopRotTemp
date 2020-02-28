@@ -1,0 +1,8 @@
+rot assign res AS4 &
+   sidelib FREE10 _C14 _C3_ &
+     newgrp &
+   sidelib FREE30 _C10 _C11 &
+   sidelib FREE30 _C11 _C12 &
+   sidelib FREE30 _C12 _O5_ &
+     newgrp &
+   sidelib FREE10 _C17 _O1_ &
