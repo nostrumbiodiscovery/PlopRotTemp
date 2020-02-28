@@ -1,0 +1,31 @@
+# must do conda install -c NostrumBioDiscovery pele_platform 
+package:
+  name: ploprottemp
+  version: "1.0.0"
+
+about:
+  home: https://github.com/nostrumbiodiscovery/PlopRotTemp
+  license: Apache
+  license_file: LICENSE
+  summary: Extract forcefield parameters of a small molecule using OPLS2005
+
+source:
+  path: ../
+
+build:
+  script: python -m pip install . --no-deps -vv
+  number: 0
+
+requirements:
+  host:
+    - python
+
+  run:
+    # Base dependencies
+    - python
+
+test:
+  imports:
+    - PlopRotTemp
+  command:
+    - python -m PlopRotTemp.main -h 
