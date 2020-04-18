@@ -1,7 +1,7 @@
 # must do conda install -c NostrumBioDiscovery pele_platform 
 package:
   name: ploprottemp
-  version: "1.0.0"
+  version: "1.0.1"
 
 about:
   home: https://github.com/nostrumbiodiscovery/PlopRotTemp
