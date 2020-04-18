@@ -2861,11 +2861,11 @@ def find_build_lib(resname, mae_file, root, tors, names, group, gridres, gridres
 
                       f.write("   sidelib {0} _{1:_^3} _{2:_^3} &\n".format(lib_name, names[tors[i][0]], names[tors[i][1]]))
 
-                    elif(len(names[tors[i][0]] < 4) and len(names[tors[i][1]]>4)):
+                    elif(len(names[tors[i][0]]) < 4 and len(names[tors[i][1]])>4):
 
                       f.write("   sidelib {0} _{1:_^3} {2:_^4} &\n".format(lib_name, names[tors[i][0]], names[tors[i][1]]))
 
-                    elif(len(names[tors[i][0]] < 4) and len(names[tors[i][1]]>4)):
+                    elif(len(names[tors[i][0]]) < 4 and len(names[tors[i][1]])>4):
 
                       f.write("   sidelib {0} {1:_^4} _{2:_^3} &\n".format(lib_name, names[tors[i][0]], names[tors[i][1]]))
 
